@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		610471B2F5B0D953199843E6 /* libPods-Localization.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BE4928D68D8FAA78E3D66C /* libPods-Localization.a */; };
+		A68A3FD81D755183007C6960 /* Kannada.json in Resources */ = {isa = PBXBuildFile; fileRef = A68A3FD71D755183007C6960 /* Kannada.json */; };
+		A68A3FDA1D7551E1007C6960 /* Hindi.json in Resources */ = {isa = PBXBuildFile; fileRef = A68A3FD91D7551E1007C6960 /* Hindi.json */; };
+		A68A3FDC1D75522F007C6960 /* English.json in Resources */ = {isa = PBXBuildFile; fileRef = A68A3FDB1D75522F007C6960 /* English.json */; };
 		A6FAE9E31D74620E00BAD65B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAE9E21D74620E00BAD65B /* main.m */; };
 		A6FAE9E61D74620E00BAD65B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAE9E51D74620E00BAD65B /* AppDelegate.m */; };
 		A6FAE9E91D74620E00BAD65B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6FAE9E81D74620E00BAD65B /* ViewController.m */; };
@@ -35,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A3CFCFB7B137D97478D88795 /* Pods-Localization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Localization.release.xcconfig"; path = "Pods/Target Support Files/Pods-Localization/Pods-Localization.release.xcconfig"; sourceTree = "<group>"; };
+		A4BE4928D68D8FAA78E3D66C /* libPods-Localization.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Localization.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68A3FD71D755183007C6960 /* Kannada.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Kannada.json; sourceTree = "<group>"; };
+		A68A3FD91D7551E1007C6960 /* Hindi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Hindi.json; sourceTree = "<group>"; };
+		A68A3FDB1D75522F007C6960 /* English.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = English.json; sourceTree = "<group>"; };
 		A6FAE9DE1D74620E00BAD65B /* Localization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Localization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FAE9E21D74620E00BAD65B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A6FAE9E41D74620E00BAD65B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,7 @@
 		A6FAEA021D74620F00BAD65B /* LocalizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalizationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FAEA061D74620F00BAD65B /* LocalizationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizationUITests.m; sourceTree = "<group>"; };
 		A6FAEA081D74620F00BAD65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA9B3A593C6FB2A46A731E5 /* Pods-Localization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Localization.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Localization/Pods-Localization.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				610471B2F5B0D953199843E6 /* libPods-Localization.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D812AB4F59BB999623015FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEA9B3A593C6FB2A46A731E5 /* Pods-Localization.debug.xcconfig */,
+				A3CFCFB7B137D97478D88795 /* Pods-Localization.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A6FAE9D51D74620E00BAD65B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +105,8 @@
 				A6FAE9FA1D74620F00BAD65B /* LocalizationTests */,
 				A6FAEA051D74620F00BAD65B /* LocalizationUITests */,
 				A6FAE9DF1D74620E00BAD65B /* Products */,
+				2D812AB4F59BB999623015FB /* Pods */,
+				FA1E50D1DD0890A5527119AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +127,9 @@
 				A6FAE9E51D74620E00BAD65B /* AppDelegate.m */,
 				A6FAE9E71D74620E00BAD65B /* ViewController.h */,
 				A6FAE9E81D74620E00BAD65B /* ViewController.m */,
+				A68A3FDB1D75522F007C6960 /* English.json */,
+				A68A3FD91D7551E1007C6960 /* Hindi.json */,
+				A68A3FD71D755183007C6960 /* Kannada.json */,
 				A6FAE9EA1D74620F00BAD65B /* Main.storyboard */,
 				A6FAE9ED1D74620F00BAD65B /* Assets.xcassets */,
 				A6FAE9EF1D74620F00BAD65B /* LaunchScreen.storyboard */,
@@ -140,6 +165,14 @@
 			path = LocalizationUITests;
 			sourceTree = "<group>";
 		};
+		FA1E50D1DD0890A5527119AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4BE4928D68D8FAA78E3D66C /* libPods-Localization.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6FAEA0B1D74620F00BAD65B /* Build configuration list for PBXNativeTarget "Localization" */;
 			buildPhases = (
+				0B134BCFC6233F8546D11200 /* [CP] Check Pods Manifest.lock */,
 				A6FAE9DA1D74620E00BAD65B /* Sources */,
 				A6FAE9DB1D74620E00BAD65B /* Frameworks */,
 				A6FAE9DC1D74620E00BAD65B /* Resources */,
+				ECDA3BCD5F45583A0F91069A /* [CP] Embed Pods Frameworks */,
+				2FA614F07A9AE56F159E5D46 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +243,7 @@
 				TargetAttributes = {
 					A6FAE9DD1D74620E00BAD65B = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QGMN7468R5;
 					};
 					A6FAE9F61D74620F00BAD65B = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -243,9 +280,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A68A3FD81D755183007C6960 /* Kannada.json in Resources */,
 				A6FAE9F11D74620F00BAD65B /* LaunchScreen.storyboard in Resources */,
+				A68A3FDC1D75522F007C6960 /* English.json in Resources */,
 				A6FAE9EE1D74620F00BAD65B /* Assets.xcassets in Resources */,
 				A6FAE9EC1D74620F00BAD65B /* Main.storyboard in Resources */,
+				A68A3FDA1D7551E1007C6960 /* Hindi.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +304,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B134BCFC6233F8546D11200 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2FA614F07A9AE56F159E5D46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Localization/Pods-Localization-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECDA3BCD5F45583A0F91069A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Localization/Pods-Localization-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A6FAE9DA1D74620E00BAD65B /* Sources */ = {
@@ -413,9 +501,12 @@
 		};
 		A6FAEA0C1D74620F00BAD65B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEA9B3A593C6FB2A46A731E5 /* Pods-Localization.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QGMN7468R5;
 				INFOPLIST_FILE = Localization/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Srinivas.com.Localization;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,9 +515,12 @@
 		};
 		A6FAEA0D1D74620F00BAD65B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3CFCFB7B137D97478D88795 /* Pods-Localization.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QGMN7468R5;
 				INFOPLIST_FILE = Localization/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Srinivas.com.Localization;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +592,7 @@
 				A6FAEA0D1D74620F00BAD65B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6FAEA0E1D74620F00BAD65B /* Build configuration list for PBXNativeTarget "LocalizationTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +601,7 @@
 				A6FAEA101D74620F00BAD65B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6FAEA111D74620F00BAD65B /* Build configuration list for PBXNativeTarget "LocalizationUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +610,7 @@
 				A6FAEA131D74620F00BAD65B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

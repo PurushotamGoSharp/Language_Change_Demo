@@ -1,0 +1,12 @@
+PODS:
+  - MCLocalization (1.1.3)
+
+DEPENDENCIES:
+  - MCLocalization (= 1.1.3)
+
+SPEC CHECKSUMS:
+  MCLocalization: 56bf5dbda451981950faf2bedefd03a98b35dfa7
+
+PODFILE CHECKSUM: 23f091516239bc50a9daef518302d8d3fb759958
+
+COCOAPODS: 1.0.1
